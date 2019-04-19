@@ -1,6 +1,14 @@
 let i = 0;
    function buttonClick() {
-       document.getElementById('inc','corp').value = ++i;
+       document.getElementById('corp').value = ++i;
+   }
+   let x = 0;
+   function buttonClick2() {
+       document.getElementById('inc').value = ++x;
+   }
+   let y = 0;
+   function buttonClick3() {
+       document.getElementById('merch').value = ++y;
    }
   //ANOTHER METHOD 
 //selct image
@@ -13,3 +21,4 @@ let i = 0;
        counter++;
        click.
    }
+*/
