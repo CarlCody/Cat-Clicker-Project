@@ -7,45 +7,54 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Marvel Comics Clicker</title>
 </head>
 
 <body>
     <div>
-        <div>
+        <div class="form-group bg- light content-center">
             <h1><span class="text-danger">Marvel</span> Comics Clicker</h1>
             <p class="font-italic">The average fans way to show who they love the most out of all the marvel comics
                 characters just give
                 your favorite characters a click! This was created in class for practice with HTML,ES6,CSS and
                 JavaScript.</p>
         </div>
-        <div class="content-center">
-            <h3>Marvel Universe</h3>
-
-            <button onclick="buttonClick()">Total Clicks <img src="marvel6.jpg" alt="Clicker#6"></button>
-            <input type="num" id="corp" value="0"></input>
-            <button><a href="https://youtu.be/Jte_MI8wzHc">2019 Trailers</a></button>
+        <section class="row">
+            <div class="col-lg-4 d-none d-lg-block">
+                <div class="container">
+                    <ul class="list-group">
+                <li class="list-group-item">
+                <h3><span class="text-danger">Marvel Universe</span></h3>
+                <button onclick="buttonClick()">Total Clicks <img src="marvel6.jpg" alt="Clicker#6"></button>
+                <input type="num" id="corp" value="0"></input>
+                <button><a href="https://youtu.be/Jte_MI8wzHc">2019 Trailers</a></button>
+            </li>
+            </div>
+       
+            <br>
+            <br>
+            <div class="float-left">
+                <button onclick="buttonClick2()">Total Clicks <img src="marvel5.jpg" alt="Clicker#5"></button>
+                <input type="text" id="inc" value="0"></input>
+                <button><a href="https://youtu.be/TSTklF-2dn8">Free Trailers</a></button>
+                <h3><span class="text-danger">Guarians Of Galaxy</span></h3>
+            </div>
+            <br>
+            <br>
+            <div class="float-right">
+                <button onclick="buttonClick3()">Total Clicks<img src="marvel4.jpg" alt="Clicker#4"></button>
+                <input type="text" id="merch" value="0"></input>
+                <h3><span class="text-danger">Black SpiderMan</span></h3>
+            </div>
         </div>
-        <br>
-        <br>
-        <div class="float-left">
-            <button onclick="buttonClick2()">Total Clicks <img src="marvel5.jpg" alt="Clicker#5"></button>
-            <input type="text" id="inc" value="0"></input>
-            <button><a href="https://youtu.be/TSTklF-2dn8">Free Trailers</a></button>
-            <h3>Guarians Of Galaxy</h3>
-        </div>
-        <br>
-        <br>
-        <div class="float-right">
-            <button onclick="buttonClick3()">Total Clicks<img src="marvel4.jpg" alt="Clicker#4"></button>
-            <input type="text" id="merch" value="0"></input>
-            <h3>Black SpiderMan</h3>
-        </div>
-
+    </ul>
+        </section>
 
 </body>
-<footer class="bg-dark">
+<footer class="fixed-bottom bg-light content-center">
     <p>Marvel Clicker &copy; 2019 all rights reserved</p>
 </footer>
 <script src="main.js"></script>
