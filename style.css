@@ -1,14 +1,7 @@
-.content-center{
-    text-align: center;
-}
-
-.float-left {
-    float: left;
-}
-
-.float-right {
-    float: right;
-}
 body {
-    background-color:rgb(192, 221, 240)
+    padding-top: 70px;
+}
+
+.pointer {
+    cursor: pointer;
 }
