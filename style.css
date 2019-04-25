@@ -1,7 +1,15 @@
 body {
     padding-top: 70px;
+    background: url("marvel15.jpg");
 }
 
 .pointer {
     cursor: pointer;
+}
+
+h1 {
+    color: blanchedalmond
+}
+label {
+    color: blanchedalmond
 }
