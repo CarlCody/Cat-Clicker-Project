@@ -1,11 +1,11 @@
 // model
 const model = {
     cats: [
-        { name: "Marvel Universe", image: "marvel6.jpg", clicks: 0 },
-        { name: "Guardians of the Galaxy", image: "marvel5.jpg", clicks: 0 },
-        { name: "Black Spider-Man", image: "marvel4.jpg", clicks: 0 },
-        { name: "Fantastic Four", image: "marvel8.jpg", clicks: 0 },
-        { name: "Venom", image: "marvel10.jpg", clicks: 0 }
+        { name: "Marvel Universe", image: "img/marvel6.jpg", clicks: 0 },
+        { name: "Guardians of the Galaxy", image: "img/marvel5.jpg", clicks: 0 },
+        { name: "Black Spider-Man", image: "img/marvel4.jpg", clicks: 0 },
+        { name: "Fantastic Four", image: "img/marvel8.jpg", clicks: 0 },
+        { name: "Venom", image: "img/marvel10.jpg", clicks: 0 }
     ]
 };
 
